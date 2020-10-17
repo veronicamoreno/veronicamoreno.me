@@ -1,4 +1,4 @@
-@charset "UTF-8";
+
 /*!
 * Start Bootstrap - Freelancer v6.0.4 (https://startbootstrap.com/themes/freelancer)
 * Copyright 2013-2020 Start Bootstrap
@@ -366,10 +366,10 @@ h6, .h6 {
 .contact {
   font-size: 1.25rem;
   font-weight: 300;
-  padding-right: 150px;
-  padding-left: 150px;
-
+  padding-right: 40px;
+  padding-left: 40px;
 }
+
 
 .display-1 {
   font-size: 6rem;
@@ -447,11 +447,16 @@ mark,
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "— ";
+  content: "— ";
 }
 
 .img-fluid {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  width: 10%;
   height: auto;
 }
 
@@ -523,11 +528,7 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
-}
+
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
@@ -3973,14 +3974,17 @@ input[type=button].btn-block {
   justify-content: space-between;
 }
 .navbar-brand {
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 4px;
   display: inline-block;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   line-height: inherit;
   white-space: nowrap;
 }
+
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }
@@ -10083,6 +10087,7 @@ h3 {
   padding: 0.8rem;
 }
 
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 1.5rem;
@@ -10247,5 +10252,3 @@ form .row:first-child .floating-label-form-group {
 .fa-star, .fa-utensils, .fa-book, .fa-address-card, .fa-search, .fa-shopping-cart {
   color: #C21460;
 }
-
-
