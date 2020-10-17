@@ -3975,12 +3975,12 @@ input[type=button].btn-block {
 }
 .navbar-brand {
   font-family: 'Amatic SC', cursive;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   display: inline-block;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   line-height: inherit;
   white-space: nowrap;
 }
