@@ -3503,7 +3503,7 @@ h4 {
 
 .link-wrapper {
   max-width: 100%;
-  margin-top: -140px;
+  margin-top: 0px;
   margin-bottom: 100px;
 }
 
@@ -3678,6 +3678,14 @@ h4 {
   max-width: 100%;
   -o-object-fit: scale-down;
   object-fit: scale-down;
+}
+
+
+@media screen and (min-width: 1340px) {
+  .link-wrapper {
+  max-width: 100%;
+  margin-top: -140px;
+  margin-bottom: 100px;
 }
 
 @media screen and (min-width: 1280px) {
