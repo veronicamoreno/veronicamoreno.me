@@ -3690,10 +3690,13 @@ h4 {
 /*@media screen and (min-width: 1280px) {*/
 
 @media screen and (min-width: 1340px) {
+  
+  .link-wrapper{
+    margin-top: -140px;
+  }
   .navbar-wrapper {
     margin-right: -220px;
     margin-left: -220px;
-    margin-top: -140;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
