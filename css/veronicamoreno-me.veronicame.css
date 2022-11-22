@@ -154,7 +154,7 @@ h4 {
   padding: 5px 10px;
   font-family: Inter, sans-serif;
   color: #342c30;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 20px;
   font-weight: 600;
   letter-spacing: 0.25px;
@@ -265,7 +265,7 @@ h4 {
   border-radius: 3px;
   background-color: #fff;
   font-family: Inter, sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 28px;
   font-weight: 400;
   text-transform: capitalize;
@@ -373,7 +373,7 @@ h4 {
   transition: opacity 500ms ease;
   font-family: Inter, sans-serif;
   color: #fff;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 500;
   text-align: center;
   text-transform: uppercase;
@@ -1853,8 +1853,8 @@ h4 {
   align-items: center;
   font-family: Inter, sans-serif;
   color: #342c30;
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 18px;
+  line-height: 24px;
   text-align: center;
   white-space: nowrap;
   -o-object-fit: fill;
@@ -1978,8 +1978,8 @@ h4 {
   margin-left: 40px;
   font-family: Inter, sans-serif;
   color: #342c30;
-  font-size: 32px;
-  line-height: 36px;
+  font-size: 26px;
+  line-height: 32px;
 }
 
 .myparagraph {
